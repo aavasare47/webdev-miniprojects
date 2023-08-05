@@ -1,6 +1,6 @@
 let count = 0;
 const number = document.getElementById('number');
-const buttons = document.querySelectorAll(".btn")
+const buttons = document.querySelectorAll(".btn");
 
 buttons.forEach(btn => {
     btn.addEventListener("click", e => {
