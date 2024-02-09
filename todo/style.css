@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+*{
+    color: antiquewhite;
+    font-family: 'Fira Code', monospace;
+}
+
+body{
+    background-color: black;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    border: solid 2px antiquewhite;
+    border-radius: 1.5rem;
+    height: 80vh;
+    padding: 2.5rem;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+.innerContainer1{
+    margin-bottom: 2rem;
+    display:flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.innerContainer2{
+    flex-grow: 1;
+    border: solid 2px antiquewhite;
+    border-radius: 1.5rem;
+}
+
+h2{
+    border-bottom: solid 2px antiquewhite;
+    padding-bottom: 1rem;
+}
+
+li{
+    border: solid 2px antiquewhite;
+    border-radius: 0.5rem;
+    height: 2rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+input{
+    background-color: black;
+    border: solid 2px antiquewhite;
+    border-radius: 1.5rem;
+    padding-left: 2rem;
+    flex-grow: 1;
+    height: 3rem;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+    background-color: black;
+    border: solid 2px antiquewhite;
+    border-radius: 1.5rem;
+    color: antiquewhite;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+::placeholder{
+    color: antiquewhite;
+}
